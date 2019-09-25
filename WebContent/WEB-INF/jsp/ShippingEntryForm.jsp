@@ -13,7 +13,7 @@ border: 1px solid black;
 </style>
 </head>
 <body>
-<form:form modelAttribute="shipping" method="post" action="purchase/submitShipping">
+<form:form modelAttribute="shippingInfo" method="post" action="submitShipping">
 	<table>
 		<tr>
 			<td>Name</td>

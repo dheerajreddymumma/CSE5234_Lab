@@ -13,7 +13,7 @@ border: 1px solid black;
 </style>
 </head>
 <body>
-<form:form modelAttribute="payment" method="post" action="purchase/submitPayment">
+<form:form modelAttribute="paymentInfo" method="post" action="submitPayment">
 	<table>
 		<tr>
 			<td>Credit Card Number</td>

@@ -25,12 +25,9 @@ border: 1px solid black;
         <tr>
             <td><c:out value="${item.name}"></c:out></td>
             <td><c:out value="$${item.price}"></c:out></td>
-            <td><form:input path="${item.quantity}" /></td>
+            <td><c:out value= "${item.quantity}" /></td>
         </tr>
     </c:forEach>
-    <tr>
-        <td colspan="2"><input type="submit" value="Confirm"></td>
-    </tr>
 </table>
 </body>
 </html>
