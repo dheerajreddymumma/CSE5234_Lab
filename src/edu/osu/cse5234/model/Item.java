@@ -3,8 +3,8 @@ package edu.osu.cse5234.model;
 public class Item {
 	
 	private String name;
-	private String price;
-	private String quantity;
+	private double price;
+	private int quantity;
 	
 	public String getName() {
 		return name;
@@ -12,16 +12,16 @@ public class Item {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getPrice() {
+	public double getPrice() {
 		return price;
 	}
-	public void setPrice(String price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
-	public String getQuantity() {
+	public int getQuantity() {
 		return quantity;
 	}
-	public void setQuantity(String quantity) {
+	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
 }
