@@ -14,7 +14,7 @@ border: 1px solid black;
 </style>
 </head>
 <body>
-<form:form modelAttribute="order" method="post" action="purchase/confirmOrder">
+<form:form modelAttribute="order" method="post" action="confirmOrder">
 	<table>
 		<tr>
 			<th>Name</th>
