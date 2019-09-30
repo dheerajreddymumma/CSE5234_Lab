@@ -18,7 +18,7 @@ import edu.osu.cse5234.model.*;
  */
 @Controller
 @RequestMapping("/purchase")
-public class Purchase {
+public class PurchaseController {
 	@RequestMapping(method = RequestMethod.GET)
 	public String viewOrderEntryPage(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		Order order = new Order();
@@ -48,7 +48,7 @@ public class Purchase {
 		request.setAttribute("paymentInfo", new PaymentInfo());	
 		return "PaymentEntryForm";
 	}
-
+	
 	@RequestMapping(path = "/submitPayment", method = RequestMethod.POST)
 	public String submitPayment(@ModelAttribute("paymentInfo") PaymentInfo paymentInfo, HttpServletRequest request) {
 		request.getSession().setAttribute("paymentInfo", paymentInfo);	
