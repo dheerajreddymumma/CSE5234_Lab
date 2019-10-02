@@ -15,7 +15,7 @@ border: 1px solid black;
 </head>
 <body>
 <form:form modelAttribute="order" method="post" action="purchase/submitItems">
-	<table>
+	<table class="table table-dark">
 		<tr>
 			<th>Name</th>
 			<th>Price</th>
