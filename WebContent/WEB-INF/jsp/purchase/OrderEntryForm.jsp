@@ -39,7 +39,7 @@
 				</tr>
 			</c:forEach>
 			<tr>
-				<td colspan="2"><input class="button" type="submit" value="Purchase"></td>
+				<td colspan="2"><input class="purchase-button" type="submit" value="Purchase"></td>
 			</tr>
 		</table>
 	</form:form>

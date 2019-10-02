@@ -52,7 +52,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td colspan="2"><input class="button" type="submit" value="Submit"></td>
+				<td colspan="2"><input class="purchase-button" type="submit" value="Submit"></td>
 			</tr>
 		</table>
 	</form:form>
