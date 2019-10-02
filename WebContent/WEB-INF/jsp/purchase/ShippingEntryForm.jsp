@@ -13,6 +13,8 @@ border: 1px solid black;
 </style>
 </head>
 <body>
+<jsp:include page="../common/header.jsp"/>
+	
 <form:form modelAttribute="shippingInfo" method="post" action="submitShipping">
 	<table>
 		<tr>
@@ -44,5 +46,7 @@ border: 1px solid black;
 		</tr>
 	</table>
 </form:form>
+<jsp:include page="../common/footer.jsp"/>
+
 </body>
 </html>
