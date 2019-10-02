@@ -8,7 +8,7 @@
 </head>
 <body>
   <jsp:include page="common/header.jsp"/>
-  <main role="main" class="container">
+  <main role="main" class="my-4 container">
     <div class="row">
       <section class="jumbotron text-center col-12">
         <div class="container">
