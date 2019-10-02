@@ -20,16 +20,6 @@
 	<li class="nav-item">
         <a class="nav-link" href="/SpringMVC/purchase">Shop</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Other
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Why DC?</a>
-          <a class="dropdown-item" href="#">Locations</a>
-          <a class="dropdown-item" href="#">Resources</a>
-        </div>
-      </li>
     </ul>
   </div>
 </nav>
