@@ -9,19 +9,15 @@
 	<meta charset="ISO-8859-1">
 	<title>Order entry form</title>
 	<style>
-		table,
-		th,
-		td {
-			border: 1px solid black;
-		}
+
 	</style>
 </head>
 
-<body>
+<body style="container">
 	<jsp:include page="../common/header.jsp"/>
 
 	<form:form modelAttribute="order" method="post" action="purchase/submitItems">
-		<table class="table table-dark">
+		<table class="order-table table table-dark">
 			<tr>
 				<th>Name</th>
 				<th>Price</th>
