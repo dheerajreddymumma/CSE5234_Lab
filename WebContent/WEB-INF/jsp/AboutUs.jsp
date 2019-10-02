@@ -15,6 +15,8 @@
 <title>About Us</title>
 </head>
 <body>
+	<jsp:include page="common/header.jsp"/>
+
 	<div class="bg-light py-5">
 	  <div class="container py-5">
 	    <div class="row mb-4">
@@ -88,5 +90,7 @@
 	    </div>
 	  </div>
 	</div>
+	 <jsp:include page="common/footer.jsp"/>
+
 </body>
 </html>
