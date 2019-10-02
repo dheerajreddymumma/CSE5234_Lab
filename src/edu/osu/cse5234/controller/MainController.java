@@ -23,4 +23,10 @@ public class MainController {
 		//request.setAttribute("paymentInfo", new PaymentInfo());	
 		return "AboutUs";
 	}
+	
+	@RequestMapping(path = "/contactUs", method = RequestMethod.GET)
+	public String viewContactUs(HttpServletRequest request, HttpServletResponse response) {
+		//request.setAttribute("paymentInfo", new PaymentInfo());	
+		return "ContactUs";
+	}
 }
