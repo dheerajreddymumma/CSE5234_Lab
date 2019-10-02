@@ -8,16 +8,16 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/SpringMVC/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/aboutUs">About Us</a>
+        <a class="nav-link" href="/SpringMVC/aboutUs">About Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/contactUs">Contact Us</a>
+        <a class="nav-link" href="/SpringMVC/contactUs">Contact Us</a>
       </li>
 	<li class="nav-item">
-        <a class="nav-link" href="/purchase">Shop</a>
+        <a class="nav-link" href="/SpringMVC/purchase">Shop</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
