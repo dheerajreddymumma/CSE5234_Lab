@@ -1,0 +1,14 @@
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+td {
+    margin: auto;
+}
+
+.order-table {
+    width: 70%;
+    margin: auto;
+}
