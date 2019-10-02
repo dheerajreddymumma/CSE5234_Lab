@@ -33,7 +33,7 @@ public class PurchaseController {
 		}
 		order.setItems(items);
 		request.setAttribute("order", order);
-		return "OrderEntryForm";
+		return "purchase/OrderEntryForm";
 	}
 
 
@@ -46,7 +46,7 @@ public class PurchaseController {
 	@RequestMapping(path = "/paymentEntry", method = RequestMethod.GET)
 	public String viewPaymentEntryPage(HttpServletRequest request, HttpServletResponse response) {
 		request.setAttribute("paymentInfo", new PaymentInfo());	
-		return "PaymentEntryForm";
+		return "purchase/PaymentEntryForm";
 	}
 	
 	@RequestMapping(path = "/submitPayment", method = RequestMethod.POST)
@@ -58,7 +58,7 @@ public class PurchaseController {
 	@RequestMapping(path = "/shippingEntry", method = RequestMethod.GET)
 	public String viewShippingEntryPage(HttpServletRequest request, HttpServletResponse response) {
 		request.setAttribute("shippingInfo", new ShippingInfo());
-		return "ShippingEntryForm";
+		return "purchase/ShippingEntryForm";
 	}
 	
 	@RequestMapping(path = "/submitShipping", method = RequestMethod.POST)
@@ -70,7 +70,7 @@ public class PurchaseController {
 	@RequestMapping(path = "/viewOrder", method = RequestMethod.GET)
 	public String viewOrderPage(HttpServletRequest request, HttpServletResponse response) {
 		request.setAttribute("order", request.getSession().getAttribute("order"));
-		return "ViewOrder";
+		return "purchase/ViewOrder";
 	}
 	
 	@RequestMapping(path = "/confirmOrder", method = RequestMethod.POST)
@@ -82,7 +82,7 @@ public class PurchaseController {
 	@RequestMapping(path = "/viewConfirmation", method = RequestMethod.GET)
 	public String viewConfirmationPage(HttpServletRequest request, HttpServletResponse response) {
 		request.setAttribute("order", request.getSession().getAttribute("order"));
-		return "Confirmation";
+		return "purchase/Confirmation";
 	}
 
 
