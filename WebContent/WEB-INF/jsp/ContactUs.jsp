@@ -3,13 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Contact us</title>
 </head>
 <body>
+<jsp:include page="common/header.jsp"/>
 
 
 <div class="jumbotron jumbotron-sm" style="background-color:transparent">
@@ -35,6 +34,7 @@
 	    </div>
 	</div>
 </div>
-
+	
+<jsp:include page="common/footer.jsp"/>
 </body>
 </html>
