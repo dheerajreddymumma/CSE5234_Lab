@@ -20,7 +20,7 @@
     <jsp:include page="../common/header.jsp" />
 
     <h1>Order confirmed</h1>
-    <table>
+    <table class="order-table table table-dark">
         <tr>
             <th>Name</th>
             <th>Price</th>
@@ -41,6 +41,6 @@
         </c:forEach>
     </table>
 </body>
-<jsp:include page="../common/footer.jsp"/>
+<jsp:include page="../common/footer.jsp" />
 
 </html>

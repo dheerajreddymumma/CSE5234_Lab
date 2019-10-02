@@ -13,7 +13,7 @@
 	</style>
 </head>
 
-<body style="container">
+<body>
 	<jsp:include page="../common/header.jsp"/>
 
 	<form:form modelAttribute="order" method="post" action="purchase/submitItems">
@@ -39,7 +39,7 @@
 				</tr>
 			</c:forEach>
 			<tr>
-				<td colspan="2"><input type="submit" value="Purchase"></td>
+				<td colspan="2"><input class="button" type="submit" value="Purchase"></td>
 			</tr>
 		</table>
 	</form:form>
