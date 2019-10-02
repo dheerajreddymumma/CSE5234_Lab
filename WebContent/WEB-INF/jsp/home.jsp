@@ -7,7 +7,7 @@
 <title>Distributed Convienence</title>
 </head>
 <body>
-  <jsp:include page="header.jsp"/>
+  <jsp:include page="common/header.jsp"/>
   <main role="main" class="container">
     <div class="row">
       <section class="jumbotron text-center col-12">
@@ -41,6 +41,6 @@
     </div>
   </main>
 
-  <jsp:include page="footer.jsp"/>
+  <jsp:include page="common/footer.jsp"/>
 </body>
 </html>
