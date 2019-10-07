@@ -8,9 +8,6 @@
 <head>
 	<meta charset="ISO-8859-1">
 	<title>Order entry form</title>
-	<style>
-
-	</style>
 </head>
 
 <body>
