@@ -21,7 +21,7 @@
 	<jsp:include page="../common/header.jsp" />
 
 	<form:form modelAttribute="order" method="post" action="confirmOrder">
-		<table>
+		<table class="order-table table table-dark">
 			<tr>
 				<th>Name</th>
 				<th>Price</th>
@@ -41,11 +41,11 @@
 				</tr>
 			</c:forEach>
 			<tr>
-				<td colspan="2"><input type="submit" value="Confirm"></td>
+				<td colspan="2"><input class="purchase-button" type="submit" value="Confirm"></td>
 			</tr>
 		</table>
 	</form:form>
 </body>
-<jsp:include page="../common/footer.jsp"/>
+<jsp:include page="../common/footer.jsp" />
 
 </html>

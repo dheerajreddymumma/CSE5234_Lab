@@ -19,8 +19,14 @@
 <body>
     <jsp:include page="../common/header.jsp" />
 
-    <h1>Order confirmed</h1>
-    <table>
+    <div class="jumbotron">
+            <div class="container">
+              <h1 class="display-3">Thanks! Your order has been confirmed.</h1>
+              <p>We know you wont regret shopping with us. Enjoy!</p>
+              <p><a class="btn btn-primary btn-lg" href="/SpringMVC" role="button">Back to Home &raquo;</a></p>
+            </div>
+    </div>
+    <table class="order-table table table-dark">
         <tr>
             <th>Name</th>
             <th>Price</th>
@@ -41,6 +47,6 @@
         </c:forEach>
     </table>
 </body>
-<jsp:include page="../common/footer.jsp"/>
+<jsp:include page="../common/footer.jsp" />
 
 </html>

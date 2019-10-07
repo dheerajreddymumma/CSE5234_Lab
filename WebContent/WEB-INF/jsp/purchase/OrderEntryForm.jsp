@@ -8,20 +8,13 @@
 <head>
 	<meta charset="ISO-8859-1">
 	<title>Order entry form</title>
-	<style>
-		table,
-		th,
-		td {
-			border: 1px solid black;
-		}
-	</style>
 </head>
 
 <body>
 	<jsp:include page="../common/header.jsp"/>
 
 	<form:form modelAttribute="order" method="post" action="purchase/submitItems">
-		<table class="table table-dark">
+		<table class="order-table table table-dark">
 			<tr>
 				<th>Name</th>
 				<th>Price</th>
@@ -43,7 +36,7 @@
 				</tr>
 			</c:forEach>
 			<tr>
-				<td colspan="2"><input type="submit" value="Purchase"></td>
+				<td colspan="2"><input class="purchase-button" type="submit" value="Purchase"></td>
 			</tr>
 		</table>
 	</form:form>
